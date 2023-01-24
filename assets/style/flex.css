@@ -37,10 +37,23 @@
 }
 
 .eventos__item {
-  flex-grow: 1;
-  max-width: 400px;
+  flex: 0 1 auto;
 }
 
+@media (min-width: 1440px) {
+  .eventos__item {
+    flex: 0 0 20%;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .eventos__item {
+    flex: 0 0 23%;
+  }
+}
+
+/*Agenda*/
 .agenda__lista {
   display: flex;
   flex-wrap: wrap;
@@ -50,17 +63,13 @@
 }
 
 
-
 .agenda__item {
-  flex-grow: 1;
-  max-width: 400px;
+  flex: 0 1 25%;
 }
 
-
-
-@media (min-width: 720px) {
-  .agenda__lista {
-    justify-content: center;
+@media (min-width: 1440px) {
+  .agenda__item {
+    flex: 1 1 28%;
   }
 }
 

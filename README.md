@@ -1,3 +1,4 @@
 <h1>Culturama</h1>
 
-> Projeto desenvolvido juntamente com meus instrutores da Alura para fins didáticos. Neste projeto aprendi a utilizar Grid layout e flexbox.
+> O Culturama é um aplicativo web de cultura onde o usuário pode encotrar diversas opções de entretenimento e cultura. #AprendiNaAlura
+
